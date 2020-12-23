@@ -252,6 +252,7 @@ public class MetadataResponse extends AbstractResponse {
                              boolean isInternal,
                              List<PartitionMetadata> partitionMetadata,
                              int authorizedOperations) {
+            System.out.println("Random change to test creating PR");
             this.error = error;
             this.topic = topic;
             this.isInternal = isInternal;
